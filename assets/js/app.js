@@ -397,7 +397,7 @@ if (localStorage.getItem("lightMode") == "light") {
   window.addEventListener("load", function () {
     var nav = document.getElementById("navbar");
     nav.classList.remove("dark-theme");
-    document.getElementById("dark_toggler").checked = false;
+    document.getElementById("dark_toggler").checked = true;
   });
 
   var sc = document.getElementsByClassName("socialicon");
